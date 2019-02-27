@@ -10,6 +10,9 @@ class Vec3
     Vec3 & operator=(const Vec3 &)=default;
     Vec3(Vec3 &&)=default;
     Vec3 & operator=(Vec3 &&)=default;
+    float m_x=0.0f;
+    float m_y=0.0f;
+    float m_z=0.0f;
 };
 
 #endif
